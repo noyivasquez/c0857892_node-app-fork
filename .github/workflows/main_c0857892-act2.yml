@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - c0857892-act2
 on:
   push:
     branches:
-      - main_not_found
+      - main
   workflow_dispatch:
 
 jobs:
